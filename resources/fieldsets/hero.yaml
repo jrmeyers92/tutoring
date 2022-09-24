@@ -1,6 +1,16 @@
 title: Hero
 fields:
   -
+    handle: hero
+    field:
+      display: Hero
+      type: section
+      icon: section
+      listable: hidden
+      instructions_position: above
+      visibility: visible
+      always_save: false
+  -
     handle: title
     field:
       input_type: text
